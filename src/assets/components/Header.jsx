@@ -1,7 +1,14 @@
 export function Header (){
   return (
-    <div>
+    <header>
       <h1>DevBistrô</h1>
-    </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"> Menu </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
